@@ -18,8 +18,4 @@ def isValid(s):
             return False
     return not len(stack) != 0
 
-s = "(}"
-
-print(isValid(s))
-
 
